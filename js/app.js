@@ -6,7 +6,17 @@ portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
             url: '/',
-            templateUrl: 'templates/landing-page.html'
+            views: {
+                'header': {
+                    'templateUrl': 'templates/header1.html',
+                },
+                'content': {
+                    'templateUrl': 'templates/content1.html',
+                },
+                'footer': {
+                    'templateUrl': 'templates/footer1.html'
+                }
+            }
         })
 
         .state('work', {
