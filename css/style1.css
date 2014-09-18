@@ -33,3 +33,21 @@ html, body {
     margin: 0;
     padding: 10px 0;
 }
+
+.preview {
+    height: 300px;
+    margin: 10px 0;
+}
+
+.preview-image {
+    background-color: #CCC;
+    height: 100%;
+}
+
+.preview-description {
+    background-color: #EEE;
+    height: 100%;
+}
+
+.preview-description > h2 {
+}
