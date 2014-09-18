@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.23"
+    "angular": "~1.2.23",
+    "angular-ui-router": "~0.2.11"
   }
 }
