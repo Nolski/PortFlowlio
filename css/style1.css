@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin: 0 auto -155px;
+}
+
+.footer, .push {
+    height: 155px;
+}
+
+.header {
+    background-image: url('img/header-img.png');
+    background-color: #EEE;
+    text-align: center
+}
+
+.header-content {
+    margin: 100px 0;
+}
+
+.header-subtitle {
+    font-size: 15px;
+}
+
+.header-nav {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
