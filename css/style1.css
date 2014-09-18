@@ -9,6 +9,7 @@ html, body {
 
 .footer, .push {
     height: 155px;
+    background-color: #FFF;
 }
 
 .header {
