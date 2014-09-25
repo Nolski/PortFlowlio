@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ui.router']);
+var portfolioApp = angular.module('portfolioApp', ['ui.router', 'portfolioListControllers']);
 
 portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
@@ -12,9 +12,10 @@ portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
                 },
                 'content': {
                     'templateUrl': 'templates/content1.html',
+                    'controller': 'portfolioListController',
                 },
                 'footer': {
-                    'templateUrl': 'templates/footer1.html'
+                    'templateUrl': 'templates/footer1.html',
                 }
             }
         })
