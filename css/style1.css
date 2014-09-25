@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #EBEBEB;
 }
 
 .wrapper {
@@ -12,9 +13,14 @@ html, body {
 }
 
 .header {
-    background-image: url('img/header-img.png');
-    background-color: #EEE;
+    background-image: url('/img/header-bg.png');
+    background-size: cover;
+    color: #FFF;
     text-align: center
+}
+
+.header > h1 {
+    font-size: 6vw;
 }
 
 .header-content {
@@ -22,12 +28,12 @@ html, body {
 }
 
 .header-subtitle {
-    font-size: 15px;
+    font-size: 2vw;
 }
 
 .header-nav {
-    background-color: #333;
-    color: #FFF;
+    background-color: #FFF;
+    color: #555;
     text-align: center;
     width: 100%;
     margin: 0;
