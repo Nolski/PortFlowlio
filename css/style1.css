@@ -62,6 +62,9 @@ html, body {
 .preview-description {
     background-color: #FFF;
     height: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    color: #555555;
 }
 
 .preview-link {
@@ -75,6 +78,10 @@ html, body {
     padding: 10px;
 }
 
-.preview-description > h2 {
+.preview-text {
+    margin: 0 15px;
+}
+
+.preview-title {
     color: #489bd6
 }
