@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Montserrat';
+    font-family: 'Lato';
     height: 100%;
     background-color: #EBEBEB;
 }
@@ -15,23 +15,27 @@ html, body {
 }
 
 .header {
-    background-image: url('/img/header-bg.png');
-    background-size: 100%;
+    background-image: url('http://placepuppy.it/1400/400');
     background-attachment: fixed;
+    background-position-x: center;
+    overflow: hidden;
     color: #FFF;
-    text-align: center
+    text-align: center;
+    height: 400px;
 }
 
-.header > h1 {
-    font-size: 6vw;
+.header-title {
+    font-size: 4vw;
+    font-weight: 600;
 }
 
 .header-content {
-    margin: 100px 0;
+    margin: 162px 0;
 }
 
 .header-subtitle {
     font-size: 2vw;
+    font-weight: 300;
 }
 
 .header-nav {
@@ -41,6 +45,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 10px 0;
+    margin-top: -20px;
 }
 
 .nav-element {
@@ -50,32 +55,38 @@ html, body {
 }
 
 .preview {
-    height: 300px;
-    margin: 20px 0;
+    height: 400px;
+    margin: 60px 0;
 }
 
 .preview-image {
-    height: 300px;
+    height: 400px;
     padding: 0;
 }
 
 .preview-description {
     background-color: #FFF;
     height: 100%;
-    font-size: 14px;
-    line-height: 25px;
     color: #555555;
+}
+
+.preview-description-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 35px;
 }
 
 .preview-link {
     color: #FFF;
     background-color: #489BD6;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 50%;
-    width: 160px;
-    margin-left: -80px;
+    width: 178px;
+    margin-left: -89px;
     padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .preview-text {
@@ -83,5 +94,6 @@ html, body {
 }
 
 .preview-title {
-    color: #489bd6
+    color: #489bd6;
+    font-weight: 600;
 }
