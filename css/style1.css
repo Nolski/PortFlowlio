@@ -11,7 +11,9 @@ html, body {
 
 .footer, .push {
     height: 155px;
-    background-color: #FFF;
+    background-image: url('/img/blue-pattern.jpg');
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .header {
@@ -122,4 +124,35 @@ html, body {
     font-weight: 600;
     color: #f3786c;
     margin-top: -4px;
+}
+
+.about {
+    background-color: #FFF;
+}
+
+.about > div {
+    margin: 50px 0;
+}
+
+.about-text {
+    margin-top: 22px;
+}
+
+.about-text > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-title {
+    color: #3e637a;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.picture {
+    background-color: #555;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
