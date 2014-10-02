@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ui.router', 'portfolioListControllers']);
+var portfolioApp = angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers']);
 
 portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
@@ -23,5 +23,5 @@ portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('work', {
             url: '/work',
             // add template
-        })
+        });
 });

@@ -15,9 +15,9 @@ html, body {
 }
 
 .header {
-    background-image: url('http://placepuppy.it/1400/400');
+    background-image: url('/img/blue-pattern.jpg');
     background-attachment: fixed;
-    background-position-x: center;
+    background-position: center;
     overflow: hidden;
     color: #FFF;
     text-align: center;
@@ -44,49 +44,67 @@ html, body {
     text-align: center;
     width: 100%;
     margin: 0;
-    padding: 10px 0;
-    margin-top: -20px;
+    box-shadow: rgba(0, 0, 0, 0.44) 0 -4px 8px;
 }
 
 .nav-element {
     font-size: 1.5vw;
     font-weight: 600;
-    margin: 0 3vw;
+    padding: 15px 3vw;
+    color: #555;
+}
+
+.list-inline > li:hover {
+    border-bottom: 4px solid #f3786c;
+    padding-bottom: 11px;
+    cursor: pointer;
+}
+
+.list-inline > li {
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .preview {
-    height: 400px;
+    height: 330px;
     margin: 60px 0;
 }
 
 .preview-image {
-    height: 400px;
+    height: 330px;
     padding: 0;
 }
 
 .preview-description {
     background-color: #FFF;
     height: 100%;
-    color: #555555;
+    color: #555;
 }
 
 .preview-description-text {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .preview-link {
-    color: #FFF;
-    background-color: #489BD6;
+    color: #3e637a;
+    border: 3px solid #3e637a;
     position: absolute;
     bottom: 20px;
     left: 50%;
-    width: 178px;
-    margin-left: -89px;
+    width: 150px;
+    margin-left: -75px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
+}
+
+.preview-link:hover {
+    background-color: #3e637a;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .preview-text {
@@ -94,6 +112,14 @@ html, body {
 }
 
 .preview-title {
-    color: #489bd6;
+    color: #3e637a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.preview-text > h4 {
+    font-size: 16px;
     font-weight: 600;
+    color: #f3786c;
+    margin-top: -4px;
 }

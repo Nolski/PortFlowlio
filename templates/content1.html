@@ -1,9 +1,10 @@
 <div class="container">
     <div class="row preview" ng-repeat="portfolio in portfolios">
-        <img ng-if="$even" src="{{portfolio.img}}" class="col-md-8 preview-image" alt=""/>
-        <div class="col-md-4 preview-description">
+        <img ng-if="$even" src="{{portfolio.img}}" class="col-md-7 col-md-offset-1 preview-image" alt=""/>
+        <div class="col-md-3 preview-description" ng-class="{'col-md-offset-1': $odd}">
             <div class="preview-text">
                 <h2 class="preview-title">{{portfolio.title | uppercase}}</h2>
+                <h4 ng-if="portfolio.subtitle">{{portfolio.subtitle | uppercase}}</h4>
                 <ul ng-if="portfolio.techUsed">
                     <li ng-repeat="tech in portfolio.techUsed">{{tech}}</li>
                 </ul>
@@ -11,6 +12,6 @@
             </div>
             <a class="preview-link">CHECK OUT MORE</a>
         </div>
-        <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-8 preview-image" alt=""/>
+        <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-7 preview-image" alt=""/>
     </div>
 </div>
