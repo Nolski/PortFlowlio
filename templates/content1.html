@@ -10,7 +10,7 @@
                 </ul>
                 <p class="preview-description-text">{{portfolio.description}}</p>
             </div>
-            <a class="preview-link">CHECK OUT MORE</a>
+            <a ng-href="/#/work/{{portfolio.title | urlformat }}" class="preview-link">CHECK OUT MORE</a>
         </div>
         <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-7 preview-image" alt=""/>
     </div>

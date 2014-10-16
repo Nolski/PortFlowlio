@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers']);
+var portfolioApp = angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers', 'portfolioListDirectives']);
 
 portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/');
@@ -21,7 +21,26 @@ portfolioApp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
         .state('work', {
-            url: '/work',
-            // add template
+            url: '/work/:portfolioId',
+            views: {
+                'header': {
+                    'templateUrl': 'templates/header1.html',
+                },
+                'content': {
+                    'controller': 'processController',
+                    'templateUrl': 'templates/process.html',
+                },
+                'footer': {
+                    'templateUrl': 'templates/footer1.html',
+                }
+            }
         });
+});
+
+
+portfolioApp.filter('urlformat', function () {
+    return function (value) {
+        value = value.replace(/ /g, '-');
+        return value.toLowerCase();
+    };
 });
