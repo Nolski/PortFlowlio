@@ -4,6 +4,10 @@ html, body {
     background-color: #EBEBEB;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .wrapper {
     min-height: 100%;
     margin: 0 auto -155px;
@@ -53,6 +57,10 @@ html, body {
     font-size: 1.5vw;
     font-weight: 600;
     padding: 15px 3vw;
+    color: #555;
+}
+
+.nav-element > a {
     color: #555;
 }
 
@@ -119,7 +127,7 @@ html, body {
     font-weight: 700;
 }
 
-.preview-text > h4 {
+.preview-subtitle {
     font-size: 16px;
     font-weight: 600;
     color: #f3786c;
@@ -156,3 +164,73 @@ html, body {
     height: 200px;
     border-radius: 100px;
 }
+
+.responsive-img {
+    width: 100%;
+}
+
+.process {
+    background-color: #FFF;
+    margin: 100px;
+}
+
+.process-title {
+    color: #3E637A;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.process-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3786c;
+    margin-top: -4px;
+    margin-bottom: 50px;
+}
+
+.process-img {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.process-row {
+    margin-top: 100px;
+}
+
+.process-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #555;
+}
+
+.section-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3786c;
+    font-weight: 900;
+}
+
+.sub {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.end {
+    padding-bottom: 50px;
+}
+
+.thank-you {
+    text-align: center;
+    font-size: 21px;
+    color: #3e637a;
+    line-height: 30px;
+}
+
+.heart {
+    text-align: center;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.12);
+}
+

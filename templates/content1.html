@@ -4,7 +4,7 @@
         <div class="col-md-3 preview-description" ng-class="{'col-md-offset-1': $odd}">
             <div class="preview-text">
                 <h2 class="preview-title">{{portfolio.title | uppercase}}</h2>
-                <h4 ng-if="portfolio.subtitle">{{portfolio.subtitle | uppercase}}</h4>
+                <h4 class="preview-subtitle" ng-if="portfolio.subtitle">{{portfolio.subtitle | uppercase}}</h4>
                 <ul ng-if="portfolio.techUsed">
                     <li ng-repeat="tech in portfolio.techUsed">{{tech}}</li>
                 </ul>
@@ -15,15 +15,4 @@
         <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-7 preview-image" alt=""/>
     </div>
 </div>
-<div class="row about">
-    <div class="container">
-        <div class="container">
-            <div class="col-md-3 col-md-offset-1 picture">
-            </div>
-            <div class="col-md-7 about-text">
-                <h1 class="about-title">HEY THERE!</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. </p>
-            </div>
-        </div>
-    </div>
-</div>
+<about></about>
