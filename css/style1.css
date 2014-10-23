@@ -189,9 +189,12 @@ a:hover {
     margin-bottom: 50px;
 }
 
-.process-img {
-    padding-right: 0;
+.process-img-left {
     padding-left: 0;
+}
+
+.process-img-right {
+    padding-right: 0;
 }
 
 .process-row {
@@ -234,3 +237,33 @@ a:hover {
     color: rgba(0, 0, 0, 0.12);
 }
 
+.responsive-shown {
+    display: none;
+}
+
+.responsive-hidden {
+    display: block;
+}
+
+@media (max-width: 992px) {
+    .preview {
+        height: auto;
+    }
+
+    .preview-description {
+        height: 350px;
+        padding-top: 20px;
+    }
+
+    .preview-image {
+        width: 100%;
+    }
+
+    .responsive-shown {
+        display: block;
+    }
+
+    .responsive-hidden {
+        display: none;
+    }
+}

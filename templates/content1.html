@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row preview" ng-repeat="portfolio in portfolios">
-        <img ng-if="$even" src="{{portfolio.img}}" class="col-md-7 col-md-offset-1 preview-image" alt=""/>
+        <img src="{{portfolio.img}}" class="col-md-7 col-md-offset-1 preview-image" ng-class="{'responsive-shown': $odd}" alt=""/>
         <div class="col-md-3 preview-description" ng-class="{'col-md-offset-1': $odd}">
             <div class="preview-text">
                 <h2 class="preview-title">{{portfolio.title | uppercase}}</h2>
@@ -12,7 +12,7 @@
             </div>
             <a ng-href="/#/work/{{portfolio.title | urlformat }}" class="preview-link">CHECK OUT MORE</a>
         </div>
-        <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-7 preview-image" alt=""/>
+        <img ng-if="$odd" src="{{portfolio.img}}" class="col-md-7 preview-image" ng-class="{'responsive-hidden': $odd}" alt=""/>
     </div>
 </div>
 <about></about>
