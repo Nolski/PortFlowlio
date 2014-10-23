@@ -201,6 +201,10 @@ a:hover {
     margin-top: 100px;
 }
 
+.process-side-text {
+    margin: 0 30px;
+}
+
 .process-paragraph {
     font-size: 16px;
     line-height: 24px;
