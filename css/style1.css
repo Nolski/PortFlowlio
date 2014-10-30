@@ -18,6 +18,7 @@ a:hover {
     background-image: url('/img/blue-pattern.jpg');
     background-attachment: fixed;
     background-position: center;
+    color: #FFF;
 }
 
 .header {
@@ -281,6 +282,62 @@ a:hover {
     margin-top: 34px;
     font-size: 22px;
     text-align: center;
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+span.icon-info {
+    position: relative;
+    top: -3px;
+    font-size: 18px;
+}
+
+.contact-footer {
+    margin-top: 57px;
+    font-size: 30px;
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 55px 1px;
+}
+
+.social:hover {
+    background-position-y: 45px;
+    cursor: pointer;
+}
+
+.dribble {
+    background-image: url('/img/icons/social_dribbble.png');
+}
+
+.facebook {
+    background-image: url('/img/icons/social_facebook.png');
+}
+
+.github {
+    background-image: url('/img/icons/social_github.png');
+}
+
+.instagram {
+    background-image: url('/img/icons/social_instagram.png');
+}
+
+.twitter {
+    background-image: url('/img/icons/social_twitter.png');
+}
+
+.pinterest {
+    background-image: url('/img/icons/social_pinterest.png');
+}
+
+.vimeo {
+    background-image: url('/img/icons/social_vimeo.png');
 }
 
 @media (max-width: 992px) {
