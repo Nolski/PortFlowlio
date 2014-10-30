@@ -25,4 +25,11 @@ portfolioListDirectives
             restrict: 'E',
             templateUrl: 'templates/about.html',
         };
+    }])
+
+    .directive('surroundingProjects', [function () {
+        return {
+            restrict: 'E',
+            templateUrl: 'templates/surroundingProjects.html'
+        };
     }]);

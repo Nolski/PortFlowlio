@@ -1,4 +1,4 @@
-angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers', 'portfolioListDirectives'])
+angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers', 'portfolioListDirectives', 'portfolioFilters'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
@@ -36,11 +36,4 @@ angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers
                     }
                 }
             });
-    })
-
-    .filter('urlformat', function () {
-        return function (value) {
-            value = value.replace(/ /g, '-');
-            return value.toLowerCase();
-        };
     });

@@ -250,6 +250,39 @@ a:hover {
     display: block;
 }
 
+.surrounding {
+    height: 100px;
+    margin-bottom: 50px;
+    background-color: #3e637a;
+}
+
+.surrounding-side {
+    height: 100%;
+}
+
+.surrounding-center {
+    height: 100%;
+    background-color: #FFF;
+}
+
+
+
+.surrounding-side > p > a {
+    color: #FFF;
+    font-size: 22px;
+}
+
+.surrounding-side > p {
+    margin-top: 34px;
+    text-align: center;
+}
+
+.surrounding-center > p {
+    margin-top: 34px;
+    font-size: 22px;
+    text-align: center;
+}
+
 @media (max-width: 992px) {
     .preview {
         height: auto;
