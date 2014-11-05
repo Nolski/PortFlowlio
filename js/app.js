@@ -10,6 +10,9 @@ angular.module('portfolioApp', ['ui.router', 'sticky', 'portfolioListControllers
                 views: {
                     'header': {
                         'templateUrl': 'templates/header1.html',
+                        'controller': function ($scope) {
+                            $scope.work = true;
+                        }
                     },
                     'content': {
                         'templateUrl': 'templates/content1.html',

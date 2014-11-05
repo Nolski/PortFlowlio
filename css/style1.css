@@ -17,14 +17,15 @@ a:hover {
     height: 155px;
     background-image: url('/img/blue-pattern.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
+    background-size: 100%;
     color: #FFF;
 }
 
 .header {
     background-image: url('/img/blue-pattern.jpg');
     background-attachment: fixed;
-    background-position: center;
+    background-position: center top;
     overflow: hidden;
     color: #FFF;
     text-align: center;
@@ -69,6 +70,17 @@ a:hover {
     border-bottom: 4px solid #f3786c;
     padding-bottom: 11px;
     cursor: pointer;
+}
+
+.separator {
+    width: 100%;
+    border-bottom: solid 1px #555;
+    margin-top: 90px;
+}
+
+.active {
+    border-bottom: 4px solid #f3786c;
+    padding-bottom: 11px;
 }
 
 .list-inline > li {
@@ -173,7 +185,7 @@ a:hover {
 
 .process {
     background-color: #FFF;
-    margin: 100px;
+    margin: 60px 100px;
 }
 
 .process-title {
@@ -253,7 +265,7 @@ a:hover {
 
 .surrounding {
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     background-color: #3e637a;
 }
 
@@ -265,8 +277,6 @@ a:hover {
     height: 100%;
     background-color: #FFF;
 }
-
-
 
 .surrounding-side > p > a {
     color: #FFF;

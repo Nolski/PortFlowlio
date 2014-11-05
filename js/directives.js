@@ -1,6 +1,4 @@
-var portfolioListDirectives = angular.module('portfolioListDirectives', []);
-
-portfolioListDirectives
+angular.module('portfolioListDirectives', [])
 
     .directive('process', ['$http', '$templateCache', '$compile',
                function ($http, $templateCache, $compile) {

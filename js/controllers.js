@@ -1,6 +1,7 @@
 angular.module('portfolioListControllers', ['portfolioFilters'])
 
     .controller('portfolioListController', ['$scope', '$http', function ($scope, $http) {
+        $scope.workPage = true;
         $http.get('data/projects.json')
             .success(function (data) {
                 $scope.portfolios = data;
