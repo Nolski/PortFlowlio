@@ -1,0 +1,83 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 process">
+            <div class="row">
+                <img class="responsive-img" src="/img/1.jpg" alt=""/>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="process-title">ENTER TITLE</h1>
+                    <h4 class="process-subtitle">CATEGORY</h4>
+                    <p class="sub">Either some kind of project or problem statement or some other sort of introduction to the project to draw the viewer in and quickly give some contect to the project.</p>
+                    <p class="process-paragraph">This is and example of a section of text that doesn’t have anything on either side. To keep line length readable it’d been brought it and isn’t the full width. This can give background to the project and describe how the project came to be. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="row process-row">
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Section Title</h2>
+                        <p class="process-paragraph">This is and example of a section of text with an image to the right. This can give background to the project and describe how the project came to be. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                        <p class="process-paragraph">This is and example of a section of text with an image to the right. This can give background to the project and describe how the project came to be. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 process-img-right">
+                    <img class="responsive-img" src="/img/2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-6 process-img-left">
+                    <img class="responsive-img" src="/img/3.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Section Title</h2>
+                        <p class="process-paragraph">This is and example of a section of text with an image to the right. This can give background to the project and describe how the project came to be. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti. Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-6 process-img-left">
+                    <img class="responsive-img" src="/img/4.jpg" alt="">
+                </div>
+                <div class="col-md-6 process-img-right">
+                    <img class="responsive-img" src="/img/5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-12 process-img-right process-img-left">
+                    <img class="responsive-img" src="/img/6.jpg" alt=""/>
+                </div>
+            </div>
+
+            <div class="row process-row end">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="thank-you">Thanks for checking out my project! See more of my work below.</p>
+                    <div class="heart">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row surrounding">
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{previousPortfolio.title | urlformat}}"> &lt; {{previousPortfolio.title}}</a></p>
+    </div>
+    <div class="col-md-4 surrounding-center">
+        <p>See All Projects</p>
+    </div>
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{nextPortfolio.title | urlformat}}">{{nextPortfolio.title}} &gt;</a> </p>
+    </div>
+</div>
+
+<about></about>

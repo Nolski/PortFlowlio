@@ -37,11 +37,12 @@ angular.module('portfolioListControllers', ['portfolioFilters'])
 
 
 function getNextPortfolios(portfolios, i) {
+    console.log('i', i);
     if(i === 0) {
         return [ portfolios[portfolios.length - 1], portfolios[i + 1] ];
     } else if (i === portfolios.length - 1){
-        return [ portfolios[i - 1], portfolios[i + 1] ];
-    } else {
         return [ portfolios[i - 1], portfolios[0] ];
+    } else {
+        return [ portfolios[i - 1], portfolios[i + 1] ];
     }
 }
