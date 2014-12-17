@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 process">
+            <div class="row">
+                <img class="responsive-img" src="/img/rhokthehood.jpg" alt=""/>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="process-title"><a target="_blank" href="https://rhokthehood.com">RHoK The Hood</a></h1>
+                    <h4 class="process-subtitle">DataVis</h4>
+                    <p class="sub">A system for visualizing census data over the City of Rochester.</p>
+                    <p class="process-paragraph">RHoK The Hood began as a project at the 2013 Rochester Random Hacks of Kindness Hackathon. It was an attempt to provide the residents of Rochester City with an easy way to visualize information that we found was frequently requested through the Freedom of Information Law in a concise manner at a block level using the power of Geographic Information Systems.</p>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="row process-row">
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">How It Works</h2>
+                        <p class="process-paragraph">RHoK The Hood was built entirely as a front end web application using jQuery, Foundation, and Leaflet as the framework which we built our application. Since the project was originally created at hackathon, most of it was finished in that one sprint. However the project has had steady contributions for small patches and maintenance.</p>
+                        <p class="process-paragraph">Since the project started we have received contributions and pull requests from multiple users. We are currently undergoing a large refactoring of our javascript code base and data storage solution to make it easier to port our application to other applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 process-img-right">
+                    <img class="responsive-img" src="/img/rhokthehood1.png" alt="">
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-6 process-img-left">
+                    <img class="responsive-img" src="/img/rhokthehood2.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Awards</h2>
+                        <p class="process-paragraph">RHoK The Hood received numerous awards and recognition on top of the contributions it received. It received first place at both Random Hacks of Kindness and the AT&amp;T Civic App Challenge. It also received venture capital interest but we did not pursue due to the open nature of the project.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row process-row end">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="thank-you">Thanks for checking out my project! See more of my work below.</p>
+                    <div class="heart">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row surrounding">
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{previousPortfolio.title | urlformat}}"> &lt; {{previousPortfolio.title}}</a></p>
+    </div>
+    <div class="col-md-4 surrounding-center">
+        <p>See All Projects</p>
+    </div>
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{nextPortfolio.title | urlformat}}">{{nextPortfolio.title}} &gt;</a> </p>
+    </div>
+</div>
+
+<about></about>
