@@ -1,0 +1,66 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 process">
+            <div class="row">
+                <img class="responsive-img" src="/img/everline1.png" alt=""/>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="process-title"><a href="http://everline-fossrit.rh-cloud.com">Everline</a></h1>
+                    <h4 class="process-subtitle">DataVis</h4>
+                    <p class="sub">Project for HackUpstate utilizing the Evernote API to build Civic Hacking Data Visualizations using Timeline.js</p>
+                    <p class="process-paragraph">Everline was built to solve the issue of displaying temporal data stored within Evernotes.</p>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="row process-row">
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Introduction</h2>
+                        <p class="process-paragraph">Upon the discovery of the Timeline.js library built by the Knight Foundation I, along with the rest of Everline's contributors decided that it would be an interesting project to try and take data stored within Evernote and through their API retrieve the data and display it temporally using the Timeline.js library. Everline was awarded the Evernote API prize and an honorable mention at HackUpsate. We are still working with Evernote on making it an official app.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 process-img-right">
+                    <img class="responsive-img" src="/img/everline2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-6 process-img-left">
+                    <img class="responsive-img" src="/img/everline3.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Future Work</h2>
+                        <p class="process-paragraph">Everline currently only works as a method to retrieve temporal data from Evernote which means that the Evernote user must use a specific markup style to determine certain metadata surrounding that event. In the future we hope to use Timeline.js as a method of creating that data as well and storing it in Evernote for future use.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row process-row end">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="thank-you">Thanks for checking out my project! See more of my work below.</p>
+                    <div class="heart">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row surrounding">
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{previousPortfolio.title | urlformat}}"> &lt; {{previousPortfolio.title}}</a></p>
+    </div>
+    <div class="col-md-4 surrounding-center">
+        <p><a href="/#/work">See All Projects</a></p>
+    </div>
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{nextPortfolio.title | urlformat}}">{{nextPortfolio.title}} &gt;</a> </p>
+    </div>
+</div>
+
+<about></about>
