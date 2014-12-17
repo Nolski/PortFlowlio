@@ -1,44 +1,20 @@
 [
     {
-        "title": "Enter Title 1",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
+        "title": "PlayVis",
+        "subtitle": "NLP + DataVis",
+        "description": "PlayVis is a application for analyzing and visualizing character interactions in plays.",
+        "img": "img/playvis.jpg"
     },
     {
-        "title": "Enter Title 2",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
+        "title": "RHoK The Hood",
+        "subtitle": "DataVis",
+        "description": "A system for visualizing census data over the City of Rochester.",
+        "img": "img/rhokthehood.jpg"
     },
     {
-        "title": "Enter Title 3",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
-    },
-    {
-        "title": "Enter Title 4",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
-    },
-    {
-        "title": "Enter Title 5",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
-    },
-    {
-        "title": "Enter Title 6",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
-    },
-    {
-        "title": "Enter Title 7",
-        "subtitle": "category",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et ex tempor, ultrices urna nec, bibendum leo. Class aptent taciti.",
-        "img": "img/test.png"
+        "title": "EverLine",
+        "subtitle": "DataVis",
+        "description": "Project for HackUpstate utilizing the Evernote API to build Civic Hacking Data Visualizations using Timeline.js",
+        "img": "img/everline.png"
     }
 ]

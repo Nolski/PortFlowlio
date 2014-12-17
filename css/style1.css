@@ -18,7 +18,7 @@ a:hover {
     background-image: url('/img/blue-pattern.jpg');
     background-attachment: fixed;
     background-position: center top;
-    background-size: 100%;
+    background-size: 100% 100%;
     color: #FFF;
 }
 
@@ -173,9 +173,9 @@ a:hover {
 }
 
 .picture {
-    background-color: #555;
     width: 200px;
     height: 200px;
+    padding: 0;
     border-radius: 100px;
 }
 
