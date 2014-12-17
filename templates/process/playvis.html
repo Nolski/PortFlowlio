@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 process">
+            <div class="row">
+                <img class="responsive-img" src="/img/playvis.jpg" alt=""/>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="process-title"><a target="_blank" href="https://nolski.github.io/PlayVis/vis/">PlayVis</a></h1>
+                    <h4 class="process-subtitle">NLP &amp; DataVis</h4>
+                    <p class="sub">PlayVis is a application for analyzing and visualizing character interactions in plays. We use Python with NLTK as our backend application for generating our json file and d3.js for visualizing our data.</p>
+                    <p class="process-paragraph">The intent of this project is to create a platform for analyzing and visualizing key events and character interactions throughout plays. Our goal is to be able to meaningfully extract important data about characters; including their names, aliases, lines, interactions, and sentiment towards each other. In this document we present the results of our research automatically locating characters, performing sentiment analysis, and organizing data in to an object that can be used for visualizations. We also discuss how this technique can be used for analyzing other plays..</p>
+                </div>
+            </div>
+
+            <div class="separator"></div>
+
+            <div class="row process-row">
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Introduction</h2>
+                        <p class="process-paragraph">In the context of plays and written literature, a combination of text and sentiment analysis provides an opportunity to better display character information. Over the course of plays, it becomes difficult for a reader to keep track of every interaction between characters. By classifying interactions as events over time, however, it is possible to keep track of this data and format it in a way that makes it accessible at a glance. By experimenting with ways for extracting and displaying this data, we researched and demonstrated event tagging and sentiment analysis in a form that makes it useful for surveying the data.</p>
+                        <p class="process-paragraph">This research aimed to create a system to locate characters and generate useful information from the online Gutenberg library of plays. However, there are a few unique challenges to overcome when organizing information from this data set. Character names in each play do not remain consistent, which requires extra analysis to distinguish characters from each other. Once we have determined names, we also had to locate lines and sets of lines to attribute to the character; while at the same time recording the expressed sentiment and person being referred to.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 process-img-right">
+                    <img class="responsive-img" src="/img/playvis1.png" alt="">
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-12 process-img-right process-img-left">
+                    <img class="responsive-img" src="/img/playvis2.png" alt=""/>
+                </div>
+            </div>
+
+            <div class="row process-row">
+                <div class="col-md-6 process-img-left">
+                    <img class="responsive-img" src="/img/playvis3.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="process-side-text">
+                        <h2 class="section-title">Conclusion</h2>
+                        <p class="process-paragraph">This application was able to collect and record information on how characters connected and conversed with each other. It also analyzed sentiment within the conversations themselves and output that data in a chronological, event based format. With that new data set, the visualization engine was able to create meaningful visualizations to show the end user how characters interacted with each other over the course of the play.</p>
+                        <p class="process-paragraph">The model performed well at retrieving and identifying characters but due to sparse data in our sentiment dictionaries, our application accuracy of limited. For future improvement we plan to analyze context around sentiment heavy words to remove any false-positive cases. With our framework we hope to help create possibilities of quickly and easily visualizing texts by separating characters into entities and showing connections between them.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row process-row end">
+                <div class="col-md-10 col-md-offset-1">
+                    <p class="thank-you">Thanks for checking out my PlayVis! Feel free to download the paper <a target="_blank" href="">here</a></p>
+                    <div class="heart">
+                        <span class="glyphicon glyphicon-heart"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row surrounding">
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{previousPortfolio.title | urlformat}}"> &lt; {{previousPortfolio.title}}</a></p>
+    </div>
+    <div class="col-md-4 surrounding-center">
+        <p>See All Projects</p>
+    </div>
+    <div class="col-md-4 surrounding-side">
+        <p><a href="/#/work/{{nextPortfolio.title | urlformat}}">{{nextPortfolio.title}} &gt;</a> </p>
+    </div>
+</div>
+
+<about></about>
